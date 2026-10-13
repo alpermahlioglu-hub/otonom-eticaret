@@ -1,0 +1,7 @@
+google-genai
+gTTS
+requests
+imageio-ffmpeg
+pandas
+openpyxl
+python-dotenv

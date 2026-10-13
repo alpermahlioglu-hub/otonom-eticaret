@@ -1,0 +1,30 @@
+# Python sanal ortamı
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Gizli anahtarlar ve yerel ayarlar
+.env
+.env.*
+
+# Python araç önbellekleri
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# İşletim sistemi ve editör dosyaları
+.DS_Store
+.vscode/
+.idea/
+
+# Oluşturulan içerikler: GitHub'a yüklemiyoruz
+data/outputs/
+*.mp3
+*.mp4
+*.jpg
+*.jpeg
+*.png
+
+# Geçici dosyalar
+*.log

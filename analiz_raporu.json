@@ -1,0 +1,32 @@
+{
+  "analiz_raporu": [
+    {
+      "id": "KDN-001",
+      "urun_adi": "Oversize Kuşaklı Kaşe Kaban",
+      "fiyat_ve_rekabet_degerlendirmesi": "1.750 TL'den 1.250 TL'ye düşen fiyat (%28,5 indirim) ve 88 trend skoru ile pazarda oldukça rekabetçi bir konumda. 4.7 puan ve 180 yorum yüksek müşteri memnuniyetine işaret ediyor. Ancak 12 adetlik stok seviyesi, bu talep hızında 'tükenme' riski yaratıyor; acil stok ikmali yapılmalı.",
+      "aksiyon_onerisi": "En yaygın şikayet olan kalıp büyüklüğünü çözmek ve iade maliyetlerini düşürmek için ürün başlığına veya beden seçim alanına 'Geniş Kalıp: 1 Beden Küçük Tercih Ediniz' uyarısı ve interaktif bir beden tablosu eklenmelidir.",
+      "pazarlama_ve_icerik_stratejisi": "Düşük stok avantajını kullanarak 'Son 12 Ürün' vurgusuyla aciliyet (FOMO) odaklı yeniden hedefleme reklamları kurgulanmalı. Sosyal medyada farklı vücut tiplerinde duruşunu gösteren 'Try-on' ve stil/kombin videoları paylaşılmalıdır."
+    },
+    {
+      "id": "KDN-002",
+      "urun_adi": "Fitilli Dik Yaka Triko Kazak",
+      "fiyat_ve_rekabet_degerlendirmesi": "450 TL sabit fiyatıyla giriş-orta segmentte yer alıyor. 4.1 puan ve 75 trend skoru ürünün performansının ortalama seyrettiğini gösteriyor. İndirim uygulanmadığı için rekabette öne çıkmakta zorlanabilir; sepet artırıcı promosyonlara (ör. '2.si %30 İndirimli') uygundur.",
+      "aksiyon_onerisi": "Tüylenme şikayetini azaltmak için ürün detay sayfasına ve kargo paketine 'Hassas Yıkama ve Bakım Kılavuzu' (maks. 30°C, ters çevirerek yıkama) eklenmelidir. Uzun vadede üretici ile anti-pilling apre veya iplik kalitesi revizyonu görüşülmelidir.",
+      "pazarlama_ve_icerik_stratejisi": "'Kapsül Gardırop Temel Parçası' temasıyla ofis ve günlük kombin önerileri üzerinden içerik pazarlaması yapılmalı; kaban/ceket gibi tamamlayıcı ürünlerle çapraz satış (cross-sell) setleri oluşturulmalıdır."
+    },
+    {
+      "id": "CB-001",
+      "urun_adi": "Organik Pamuk 3'lü Bebek Zıbın Seti",
+      "fiyat_ve_rekabet_degerlendirmesi": "350 TL indirimli fiyatı, 4.9 mükemmel memnuniyet puanı ve 94 trend skoru ile tam bir 'yıldız (hero) ürün'. 8 adetlik stok son derece kritiktir; hızla stok yenilenmeli veya kâr marjını artırmak adına fiyat kademeli olarak 399 TL seviyesine çekilmelidir.",
+      "aksiyon_onerisi": "Bebek teninde tahrişe yol açan dikişli ense etiketi derhal kaldırılarak yeni üretim partisinde 'baskı etiket' (transfer baskı) teknolojisine geçilmelidir. Mevcut stoklar için ürün açıklamasına 'Etiketi dikiş yerinden kolayca kesilebilir' notu düşülmelidir.",
+      "pazarlama_ve_icerik_stratejisi": "'%100 Organik & Hipoalerjenik' argümanı öne çıkarılarak anne-bebek odaklı mikro-influencer iş birlikleri yapılmalı; Google Alışveriş ve sosyal medyada 'En Çok Satan / Ebeveynlerin Favorisi' rozetiyle öne çıkarılmalıdır."
+    },
+    {
+      "id": "CB-002",
+      "urun_adi": "Kışlık Welsoft İçi Kozalak Tulum",
+      "fiyat_ve_rekabet_degerlendirmesi": "850 TL fiyat segmentinde indirim bulunmuyor; 4.3 puan ve 81 trend skoru ürünün mevsimsel ilgisinin güçlü olduğunu gösteriyor. Ancak 40 adet yorum sosyal kanıt (social proof) açısından düşüktür; daha fazla kullanıcı yorumu toplanmalıdır.",
+      "aksiyon_onerisi": "Fermuar korumasının sertliği şikayeti için tedarikçiden fermuar kapağında (pat) daha yumuşak pamuklu astar ve esnek koruma kumaşı kullanması talep edilmelidir. Mevcut ürün çekimlerinde fermuar koruma bölgesinin yumuşak kullanım şekli detay fotoğrafı olarak sunulmalıdır.",
+      "pazarlama_ve_icerik_stratejisi": "'Bebeğinizi Kış Soğuklarından Koruyun' mottosuyla dış mekan/puset kullanımına odaklanan sıcak, samimi video içerikleri (UGC) üretilmeli; satın almış kullanıcılara yorum yapmaları karşılığında indirim kuponu tanımlanarak sosyal kanıt artırılmalıdır."
+    }
+  ]
+}

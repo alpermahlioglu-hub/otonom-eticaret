@@ -1,0 +1,54 @@
+[
+  {
+    "id": "KDN-001",
+    "kategori": "Kadin_Giyim",
+    "alt_kategori": "Kaban_Mont",
+    "urun_adi": "Oversize Kuşaklı Kaşe Kaban",
+    "fiyat": 1250.00,
+    "eski_fiyat": 1750.00,
+    "stok": 12,
+    "puan": 4.7,
+    "yorum_sayisi": 180,
+    "en_cok_sikayet": "Kalıp büyük geldi, 1 beden küçük alınmalı",
+    "trend_skoru": 88
+  },
+  {
+    "id": "KDN-002",
+    "kategori": "Kadin_Giyim",
+    "alt_kategori": "Triko_Kazak",
+    "urun_adi": "Fitilli Dik Yaka Triko Kazak",
+    "fiyat": 450.00,
+    "eski_fiyat": 450.00,
+    "stok": 45,
+    "puan": 4.1,
+    "yorum_sayisi": 62,
+    "en_cok_sikayet": "Yıkama sonrası hafif tüylenme yaptı",
+    "trend_skoru": 75
+  },
+  {
+    "id": "CB-001",
+    "kategori": "Cocuk_Bebek",
+    "alt_kategori": "Bebek_Giyim",
+    "urun_adi": "Organik Pamuk 3'lü Bebek Zıbın Seti",
+    "fiyat": 350.00,
+    "eski_fiyat": 499.00,
+    "stok": 8,
+    "puan": 4.9,
+    "yorum_sayisi": 210,
+    "en_cok_sikayet": "Etiket dikişi cildi tahriş edebilir, kesilmesi gerekiyor",
+    "trend_skoru": 94
+  },
+  {
+    "id": "CB-002",
+    "kategori": "Cocuk_Bebek",
+    "alt_kategori": "Tulum",
+    "urun_adi": "Kışlık Welsoft İçi Kozalak Tulum",
+    "fiyat": 850.00,
+    "eski_fiyat": 850.00,
+    "stok": 22,
+    "puan": 4.3,
+    "yorum_sayisi": 40,
+    "en_cok_sikayet": "Fermuar koruması çene kısmına biraz sert geliyor",
+    "trend_skoru": 81
+  }
+]
