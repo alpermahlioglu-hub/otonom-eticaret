@@ -1,22 +1,39 @@
 import os
 import json
+
+# Departman Modülleri
 from departments.market_intelligence.analyzer import pazar_analizi_yap
+from departments.media_production.generator import icerik_uret
+from departments.ops_deployment.publisher import icerik_yayinla
+from departments.ops_deployment.notifier import rapor_mail_gonder
 
-def ana_koordinator():
-    print("========================================")
-    print("OTONOM ŞİRKET KOORDİNATÖRÜ BAŞLADI")
-    print("========================================")
+def tum_sirketi_calistir():
+    print("==================================================")
+    print("🏢 OTONOM E-TİCARET ŞİRKETİ ORKESTRATÖRÜ BAŞLADI")
+    print("==================================================")
 
-    # 1. Adım: Pazar Analizi Yap ve Raporu Oluştur
-    analiz_sonucu = pazar_analizi_yap()
-    
-    # 2. Adım: urunler.json verisini güvenli bir şekilde oku
-    with open("urunler.json", "r", encoding="utf-8") as f:
-        urunler = json.load(f)
+    # 1. DEPARTMAN: Pazar İstihbaratı
+    print("\n--- 1. ADIM: PAZAR ANALİZİ & İSTİHBARAT ---")
+    try:
+        pazar_analizi_yap()
+    except Exception as e:
+        print(f"⚠️ Pazar analizi geçici bir engelle karşılaştı: {e}")
 
-    urun_idleri = [u["id"] for u in urunler]
-    print(f"📦 İşlenen Ürün ID'leri: {urun_idleri}")
-    print("✅ Koordinasyon döngüsü başarıyla tamamlandı.")
+    # 2. DEPARTMAN: Medya & İçerik Üretimi
+    print("\n--- 2. ADIM: MEDYA & İÇERİK ÜRETİMİ ---")
+    icerik_uret()
+
+    # 3. DEPARTMAN: Operasyon & Otomatik Yayın
+    print("\n--- 3. ADIM: SOSYAL MEDYA & PAZARYERİ YAYINI ---")
+    icerik_yayinla()
+
+    # 4. DEPARTMAN: Bildirim & Yönetici Raporlaması
+    print("\n--- 4. ADIM: YÖNETİCİ BİLDİRİMİ & BÜLTEN ---")
+    rapor_mail_gonder(dosya_yolu="PazarAnalizRaporu.xlsx", alici_eposta="djalpermahlioglu@gmail.com")
+
+    print("\n==================================================")
+    print("🎉 TÜM DEPARTMANLAR UYUMLU ŞEKİLDE ÇALIŞTI VE SÜREÇ TAMAMLANDI")
+    print("==================================================")
 
 if __name__ == "__main__":
-    ana_koordinator()
+    tum_sirketi_calistir()

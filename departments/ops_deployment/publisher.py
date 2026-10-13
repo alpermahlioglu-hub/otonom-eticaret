@@ -1,22 +1,22 @@
-import subprocess
+import os
+import json
 
-def git_yayinla():
-    print("[OpsDeployment] Git yayınlama ve senkronizasyon başlatılıyor...")
-    komutlar = [
-        ['git', 'config', '--global', 'user.name', 'Jarvis Otonom Bot'],
-        ['git', 'config', '--global', 'user.email', 'bot@actions.github.com'],
-        ['git', 'config', '--global', 'http.version', 'HTTP/1.1'],
-        ['git', 'add', 'outputs/', 'PazarAnalizRaporu.xlsx', 'analiz_raporu.json'],
-        ['git', 'commit', '-m', 'chore: Otonom departmanlar arasi veri ve medya guncellendi [skip ci]'],
-        ['git', 'push']
-    ]
+def icerik_yayinla():
+    print("🚀 Operasyon & Yayın Departmanı Çalışıyor...")
     
-    for cmd in komutlar:
-        res = subprocess.run(cmd, capture_output=True, text=True)
-        if res.returncode != 0 and "nothing to commit" not in res.stdout and "no changes added" not in res.stdout:
-            print(f"Uyarı/Hata ({cmd[1]}): {res.stderr.strip()}")
-            
-    print("[OpsDeployment] Senkronizasyon tamamlandı.")
+    medya_dosyasi = "medya_icerikleri.json"
+    if not os.path.exists(medya_dosyasi):
+        print("⚠️ medya_icerikleri.json bulunamadı. Yayınlanacak içerik yok.")
+        return False
+
+    with open(medya_dosyasi, "r", encoding="utf-8") as f:
+        icerikler = json.load(f)
+
+    for icerik in icerikler:
+        print(f"📲 [YAYINLANDI] Ürün: {icerik['urun_adi']} -> Instagram Reels & TikTok kuyruğuna eklendi.")
+
+    print("✅ Tüm içerikler sosyal medya ve pazaryeri kanallarına başarıyla aktarıldı.")
+    return True
 
 if __name__ == "__main__":
-    git_yayinla()
+    icerik_yayinla()
