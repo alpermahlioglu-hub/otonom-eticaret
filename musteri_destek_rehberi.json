@@ -1,0 +1,30 @@
+[
+  {
+    "urun_adi": "Kişiselleştirilebilir Oversize Tişört",
+    "sss_listesi": [
+      {
+        "soru": "Kargo ne zaman ulaşır?",
+        "yanit": "Siparişiniz 1-3 iş günü içerisinde kargoya verilir."
+      },
+      {
+        "soru": "İade yapabilir miyim?",
+        "yanit": "14 gün içerisinde sebep belirtmeksizin iade edebilirsiniz."
+      }
+    ],
+    "genel_iade_kargo_notu": "Tüm ürünlerimiz garantilidir."
+  },
+  {
+    "urun_adi": "Organik Pamuklu Bebek Tulum Seti",
+    "sss_listesi": [
+      {
+        "soru": "Kargo ne zaman ulaşır?",
+        "yanit": "Siparişiniz 1-3 iş günü içerisinde kargoya verilir."
+      },
+      {
+        "soru": "İade yapabilir miyim?",
+        "yanit": "14 gün içerisinde sebep belirtmeksizin iade edebilirsiniz."
+      }
+    ],
+    "genel_iade_kargo_notu": "Tüm ürünlerimiz garantilidir."
+  }
+]

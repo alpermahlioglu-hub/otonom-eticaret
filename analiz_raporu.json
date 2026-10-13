@@ -1,32 +1,22 @@
 {
-  "analiz_raporu": [
+  "urunler": [
     {
-      "urun_id": "KDN-001",
-      "urun_adi": "Oversize Kuşaklı Kaşe Kaban",
-      "fiyat_ve_rekabet_degerlendirmesi": "1.750 TL'den 1.250 TL'ye düşen fiyat (%28,5 indirim), kış sezonu kaşe kaban segmentinde oldukça rekabetçi ve cazip bir baremdir. Yüksek trend skoru (88) ve 4.7 puan, ürünün talep gördüğünü gösteriyor. Ancak 12 adetlik kritik stok seviyesi tükenme riski taşımakta, acil tedarik planlaması gerekmektedir.",
-      "sikayet_aksiyon_onerisi": "Ürün sayfasında boyut/beden tablosuna belirgin bir uyarı eklenmeli ('Oversize kalıp: Tam oturması için 1 beden küçük tercih ediniz'). Ayrıca modelin ölçüleri ve üzerindeki beden bilgisi ürün görsellerine infografik olarak yerleştirilerek iade/değişim maliyetleri azaltılmalıdır.",
-      "pazarlama_ve_icerik_stratejisi": "'Son Ürünler / Sınırlı Stok' vurgulu FOMO (fırsatı kaçırma korkusu) odaklı reklamlar kurgulanmalı. Sosyal medyada 'Farklı Bedenlerde Kaban Duruşu' konseptli stil/kombin videoları (Reels/TikTok) ile oversize duruş sergilenmeli."
+      "id": "KDN-001",
+      "ad": "Kişiselleştirilebilir Oversize Tişört",
+      "kategori": "Giyim & Moda",
+      "hedef_kitle": "Gençler ve Sokak Modası Tutkunları",
+      "tahmini_maliyet_tl": 150,
+      "onerilen_satis_tl": 450,
+      "trend_skoru": 92
     },
     {
-      "urun_id": "KDN-002",
-      "urun_adi": "Fitilli Dik Yaka Triko Kazak",
-      "fiyat_ve_rekabet_degerlendirmesi": "450 TL fiyat bandı, temel giyim (basic) kategorisinde erişilebilir olmakla birlikte indirim uygulanmamış olması dönüşüm oranını sınırlayabilir. 4.1 puan kategoride ortalama seviyededir; 45 adetlik stok, talep hızına kıyasla dengeli veya yavaş hareket ettiğine işaret etmektedir.",
-      "sikayet_aksiyon_onerisi": "Tüylenme şikayetini azaltmak için ürün paketine ve açıklama sayfasına 'Triko Bakım ve Yıkama Rehberi' (maks. 30 derece, hassas yıkama, tersten yıkama) kartları eklenmeli. Uzun vadede üretici ile iplik karışımındaki akrilik/yün oranı revize edilmelidir.",
-      "pazarlama_ve_icerik_stratejisi": "Sepet ortalamasını artırmak için '2 Al %15 İndirim Kazan' veya kaban/ceketlerle çapraz satış (cross-sell) paketleri (Bundle) oluşturulmalı. 'Ofis ve Günlük Kombinler' temalı kapsül gardırop içerikleri hazırlanmalı."
-    },
-    {
-      "urun_id": "CB-001",
-      "urun_adi": "Organik Pamuk 3'lü Bebek Zıbın Seti",
-      "fiyat_ve_rekabet_degerlendirmesi": "350 TL indirimli paket fiyatı (adet başı ~117 TL), organik pamuk bebek kategorisinde fiyat-performans açısından mükemmel bir noktadadır. 4.9 puan, 210 yorum ve 94 trend skoru ile platformun 'Çok Satan / Yıldız Ürün' adayıdır. 8 adetlik stok acil ikmal edilmezse satış kaybı yaşanacaktır.",
-      "sikayet_aksiyon_onerisi": "Bebek teni hassasiyeti için etiketler fiziksel dikim yerine 'baskı etiket' (transfer baskı) teknolojisine geçirilmeli. Mevcut parti için ürün açıklamasına 'Bebek konforu için dikişli etiketleri ilk kullanımdan önce kesiniz' notu eklenmeli.",
-      "pazarlama_ve_icerik_stratejisi": "Anne-bebek influencer iş birlikleri ve 'OEKO-TEX / Organik Sertifikalı' güven rozetleri öne çıkarılmalı. 'Yenidoğan İhtiyaç Listesi' reklam kurguları ile arama motoru ve sosyal medya hedeflemesi yapılmalı, stok gelir gelmez 'Tekrar Stokta' kampanyası tetiklenmeli."
-    },
-    {
-      "urun_id": "CB-002",
-      "urun_adi": "Kışlık Welsoft İçi Kozalak Tulum",
-      "fiyat_ve_rekabet_degerlendirmesi": "850 TL fiyat, bebek dış giyim için üst-orta segmenttedir. İndirimsiz olması ve 40 yorumla sınırlı kalması potansiyel alıcıların tereddüt ettiğini gösterir. 81 trend skoru kış aylarında ilginin yüksek olduğunu kanıtlasa da 4.3 puan dönüşümü bir miktar baskılayabilir.",
-      "sikayet_aksiyon_onerisi": "Fermuar ucundaki kumaş çene koruma pedi (zipper guard) daha yumuşak dokulu kumaşla büyütülmeli ve iç dolgusu yumuşatılmalı. Bu güncelleme yapıldığında ürün detaylarında 'Yumuşatılmış Çene Koruma Desteği' ibaresi vurgulanmalıdır.",
-      "pazarlama_ve_icerik_stratejisi": "Bebeği soğuktan koruma performansını kanıtlayan termal test veya 'Sıcacık Kış Yürüyüşleri' temalı dış çekim video içerikleri üretilmeli. İlk alışverişe özel indirim kuponları veya kupon eşiklerini tetikleyici kampanyalarla satın alma bariyeri kırılmalı."
+      "id": "CB-001",
+      "ad": "Organik Pamuklu Bebek Tulum Seti",
+      "kategori": "Bebek & Çocuk",
+      "hedef_kitle": "Yeni Ebeveynler",
+      "tahmini_maliyet_tl": 200,
+      "onerilen_satis_tl": 590,
+      "trend_skoru": 88
     }
   ]
 }
