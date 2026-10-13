@@ -7,6 +7,7 @@ from departments.market_intelligence.competitor import rakip_fiyat_analizi_yap
 from departments.media_production.generator import icerik_uret
 from departments.media_production.seo_writer import seo_icerik_uret
 from departments.ops_deployment.publisher import icerik_yayinla
+from departments.ops_deployment.customer_support import musteri_destek_taslaklari_uret
 from departments.ops_deployment.notifier import rapor_mail_gonder
 
 def tum_sirketi_calistir():
@@ -29,13 +30,17 @@ def tum_sirketi_calistir():
     print("\n--- 2. ADIM: MEDYA & İÇERİK ÜRETİMİ ---")
     icerik_uret()
 
-    # 2.1 YENİ MODÜL: SEO Uyumlu Blog & İçerik Motoru
+    # 2.1 MODÜL: SEO Uyumlu Blog & İçerik Motoru
     print("\n--- 2.1 ADIM: SEO BLOG & MAKALE ÜRETİMİ ---")
     seo_icerik_uret()
 
     # 3. DEPARTMAN: Operasyon & Otomatik Yayın
     print("\n--- 3. ADIM: SOSYAL MEDYA & PAZARYERİ YAYINI ---")
     icerik_yayinla()
+
+    # 3.1 MODÜL: Müşteri Destek & SSS Asistanı
+    print("\n--- 3.1 ADIM: MÜŞTERİ DESTEK & SSS TASLAKLARI ---")
+    musteri_destek_taslaklari_uret()
 
     # 4. DEPARTMAN: Bildirim & Yönetici Raporlaması
     print("\n--- 4. ADIM: YÖNETİCİ BİLDİRİMİ & BÜLTEN ---")
