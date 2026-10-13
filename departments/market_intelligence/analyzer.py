@@ -2,7 +2,7 @@ import os
 import json
 import time
 from google import genai
-from google.genai.errors import ServerError
+from google.genai.errors import ServerError, ClientError
 
 def pazar_analizi_yap():
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -33,7 +33,9 @@ def pazar_analizi_yap():
     Yanıtını sadece geçerli bir JSON formatında döndür.
     """
 
-    max_deneme = 3
+    max_deneme = 5
+    bekleme_suresi = 5  # saniye
+
     for deneme in range(1, max_deneme + 1):
         try:
             print(f"🔄 Model bağlantısı deneniyor (Deneme {deneme}/{max_deneme})...")
@@ -52,10 +54,10 @@ def pazar_analizi_yap():
             return analiz_sonucu
 
         except ServerError as e:
-            print(f"⚠️ Sunucu yoğunluğu (503): {e}")
+            print(f"⚠️ Sunucu yoğunluğu (503): {e.message if hasattr(e, 'message') else e}")
             if deneme < max_deneme:
-                print("⏳ 5 saniye bekleyip tekrar denenecek...")
-                time.sleep(5)
+                print(f"⏳ {bekleme_suresi} saniye bekleyip tekrar denenecek...")
+                time.sleep(bekleme_suresi)
             else:
                 print("❌ Maksimum deneme sınırına ulaşıldı.")
                 raise e
