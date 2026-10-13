@@ -3,6 +3,7 @@ import json
 
 # Departman Modülleri
 from departments.market_intelligence.analyzer import pazar_analizi_yap
+from departments.market_intelligence.competitor import rakip_fiyat_analizi_yap
 from departments.media_production.generator import icerik_uret
 from departments.ops_deployment.publisher import icerik_yayinla
 from departments.ops_deployment.notifier import rapor_mail_gonder
@@ -12,12 +13,16 @@ def tum_sirketi_calistir():
     print("🏢 OTONOM E-TİCARET ŞİRKETİ ORKESTRATÖRÜ BAŞLADI")
     print("==================================================")
 
-    # 1. DEPARTMAN: Pazar İstihbaratı
+    # 1. DEPARTMAN: Pazar İstihbaratı & Trend Analizi
     print("\n--- 1. ADIM: PAZAR ANALİZİ & İSTİHBARAT ---")
     try:
         pazar_analizi_yap()
     except Exception as e:
         print(f"⚠️ Pazar analizi geçici bir engelle karşılaştı: {e}")
+
+    # 1.1 YENİ MODÜL: Rakip & Fiyat İstihbaratı
+    print("\n--- 1.1 ADIM: RAKİP & DİNAMİK FİYAT ANALİZİ ---")
+    rakip_fiyat_analizi_yap()
 
     # 2. DEPARTMAN: Medya & İçerik Üretimi
     print("\n--- 2. ADIM: MEDYA & İÇERİK ÜRETİMİ ---")
