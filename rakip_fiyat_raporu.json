@@ -3,20 +3,20 @@
     "urun_id": "KDN-001",
     "urun_adi": "Kişiselleştirilebilir Oversize Tişört",
     "maliyet_tl": 150,
-    "rakip_pazaryeri_1_tl": 343.68,
-    "rakip_pazaryeri_2_tl": 332.15,
-    "ortalama_rakip_fiyati_tl": 337.91,
-    "bizim_onerilen_fiyat_tl": 321.01,
-    "tahmini_net_kar_tl": 171.01
+    "rakip_pazaryeri_1_tl": 343.71,
+    "rakip_pazaryeri_2_tl": 400.95,
+    "ortalama_rakip_fiyati_tl": 372.33,
+    "bizim_onerilen_fiyat_tl": 353.71,
+    "tahmini_net_kar_tl": 203.71
   },
   {
     "urun_id": "CB-001",
     "urun_adi": "Organik Pamuklu Bebek Tulum Seti",
     "maliyet_tl": 200,
-    "rakip_pazaryeri_1_tl": 414.19,
-    "rakip_pazaryeri_2_tl": 499.61,
-    "ortalama_rakip_fiyati_tl": 456.9,
-    "bizim_onerilen_fiyat_tl": 434.05,
-    "tahmini_net_kar_tl": 234.05
+    "rakip_pazaryeri_1_tl": 383.26,
+    "rakip_pazaryeri_2_tl": 535.23,
+    "ortalama_rakip_fiyati_tl": 459.25,
+    "bizim_onerilen_fiyat_tl": 436.29,
+    "tahmini_net_kar_tl": 236.29
   }
 ]
